@@ -1,0 +1,34 @@
+# conda env create --file environment.yml
+name: precio_alquileres_distrito_nacional
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - invoke
+  - black
+  - nbdime
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pyprojroot
+  - plotly
+  - pyjanitor
+  - r-base
+  - r-tidyverse
+  - r-rmarkdown
+  - r-shiny
+  - r-rcpp
+  - r-rsqlite
+  - r-caret
+  - pip
+  - python=3.11
+  - pip:
+    - pyhere
+    
