@@ -26,5 +26,5 @@ setup(
     python_requires='>=3',
     license= "MIT",
     url='',
-    packages= find_packages(),
-    long_description= readme(), ) 
+    packages= find_packages() 
+    ) 
